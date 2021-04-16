@@ -39,7 +39,7 @@ header .header-icons-container .icons {
   margin-right: 2rem;
 }
 
-header .header-icons-container .icons a {
+header .icons span {
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
