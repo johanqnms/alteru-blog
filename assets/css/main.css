@@ -24,7 +24,7 @@ header {
 header .header-icons-container {
   height: 50px;
   width: 100%;
-  background-color: rgb(60, 127, 138);
+  background-color: rgb(32, 126, 133);
   display: grid;
 }
 
@@ -42,4 +42,31 @@ header .header-icons-container .icons {
 header .icons span {
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 90px;
+}
+
+nav .nav-logo-container {
+  margin-left: 3rem;
+}
+
+nav .nav-logo-container img {
+  width: 220px;
+  margin-top: 1rem;
+}
+
+nav .profile {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 3rem;
+}
+
+nav .profile a {
+  color: black;
+  border-bottom: 1px solid black;
 }
