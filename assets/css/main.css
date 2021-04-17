@@ -73,7 +73,10 @@ nav .profile a {
 
 .home-main {
   height: 100vh;
-  background-color: rgb(226, 216, 216);
+  background-image: url("../img/Cover.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   display: grid;
   grid-template-columns: 1fr 4fr 1fr;
 }
