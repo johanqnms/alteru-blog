@@ -15,6 +15,9 @@
 body {
   margin: 0;
   padding: 0;
+}
+
+.home-body {
   position: fixed;
   top: 0;
   left: 0;
@@ -128,4 +131,49 @@ nav .profile a {
   font-family: "Roboto";
   font-size: 18px;
   letter-spacing: 6px;
+}
+
+/* Blogs Main */
+
+.blogs-main {
+  display: grid;
+}
+
+.blogs-news-container {
+  background-color: rgb(218, 218, 218);
+  padding: 0 50px 40px;
+}
+
+.blogs-main-news {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 2fr;
+}
+
+.blogs-news-img-container {
+  grid-column: 1;
+}
+
+.blogs-news-img-container img {
+  width: 50vw;
+}
+
+.blogs-news-info-container {
+  grid-column: 2;
+}
+
+.blogs-news-info-container p {
+  margin-bottom: 35px;
+}
+
+.blogs-posts-container {
+  padding: 0 50x 40px;
+  background-color: rgb(194, 222, 228);
+}
+
+.blogs-posts-container h3 {
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+  text-align: center;
+  font-family: 'Roboto';
 }
