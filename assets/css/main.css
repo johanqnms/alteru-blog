@@ -175,5 +175,11 @@ nav .profile a {
   border-bottom: 1px solid black;
   padding-bottom: 20px;
   text-align: center;
-  font-family: 'Roboto';
+  font-family: "Roboto";
+}
+
+.blogs-button {
+  border: 1px solid rgb(23, 174, 194);
+  padding: 0.6rem 1rem;
+  font-size: 12px;
 }
