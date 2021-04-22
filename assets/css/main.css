@@ -26,6 +26,11 @@ body {
   font-family: "Roboto";
 }
 
+.grid-container {
+  max-width: 80vw;
+  margin: auto;
+}
+
 a {
   text-decoration: none;
   display: inline;
@@ -168,7 +173,6 @@ nav .profile a {
 
 .blogs-posts-container {
   padding: 0 50x 40px;
-  background-color: rgb(194, 222, 228);
 }
 
 .blogs-posts-container h3 {
